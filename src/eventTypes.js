@@ -8,9 +8,11 @@ const AUTHENTICATE = "AUTHENTICATE";
 const AUTHENTICATED = "AUTHENTICATED";
 const UNAUTHORIZED = "unauthorized";
 const CONNECTION = "connection";
+const MESSAGE = "message";
 
 module.exports = {
   USER_JOIN,
+  MESSAGE,
   CHAT_MESSAGE,
   USER_TYPING,
   USERS_ONLINE,
